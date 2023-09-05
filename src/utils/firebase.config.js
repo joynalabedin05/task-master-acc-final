@@ -3,7 +3,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth';
 
-console.log('ENV FILE',import.meta.env.VITE_PASS);
+// console.log('ENV FILE',import.meta.env.VITE_PASS);
 
 const firebaseConfig = {
   apiKey: "AIzaSyDA5fmRtzY7m1LZ7ZqFlcGngH369p0GXiM",
