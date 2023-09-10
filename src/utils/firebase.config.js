@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth';
 console.log('ENV FILE',import.meta.env.VITE_PASS);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDA5fmRtzY7m1LZ7ZqFlcGngH369p0GXiM",
-  authDomain: "task-master-final.firebaseapp.com",
-  projectId: "task-master-final",
-  storageBucket: "task-master-final.appspot.com",
-  messagingSenderId: "420416626735",
-  appId: "1:420416626735:web:03f241af15d638d3aee6da"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.authDomain,
+  projectId: import.meta.env.projectId,
+  storageBucket: import.meta.env.storageBucket,
+  messagingSenderId: import.meta.env.messagingSenderId,
+  appId: import.meta.env.appId
 };
 
 // Initialize Firebase
